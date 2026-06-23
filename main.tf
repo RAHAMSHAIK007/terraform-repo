@@ -7,7 +7,7 @@ bucket = "my-githubactions-demo-bucket"
 }
 
 resource "aws_instance" "my_server" {
-  ami           = "ami-0bc7aabcf58d1e02a" 
+  ami           = "ami-08f44e8eca9095668" 
   instance_type = "t3.micro"             
 
   tags = {
