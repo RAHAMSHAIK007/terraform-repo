@@ -2,7 +2,7 @@ name: Terraform CI
 
 on:
   push: 
-    branches: master
+    branches: main
   workflow_dispatch:
 
 env:
